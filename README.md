@@ -12,16 +12,6 @@ Please check out the documentation below to get started.
 
 ## Features
 
-- **Next.js** app router with **TypeScript**
-- **Tailwind CSS** v3 for flexible styling customization
-- Smooth transitions powered by **Framer Motion**
-- Built-in **font optimization** with [next/font](https://nextjs.org/docs/app/api-reference/components/font)
-- Automatic **image optimization** via [next/image](https://nextjs.org/docs/app/building-your-application/optimizing/images)
-- Access to **31+ icon packs** via [React Icons](https://react-icons.github.io/react-icons/)
-- Near-perfect **Lighthouse score**
-- Modular, responsive, and **scalable components**
-- **Free lifetime updates**
-
 ---
 
 ## Sections
