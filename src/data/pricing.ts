@@ -2,36 +2,39 @@ import { IPricing } from "@/types";
 
 export const tiers: IPricing[] = [
     {
-        name: 'Starter',
-        price: 29,
-        features: [
-            'Basic cloud integration',
-            'Up to 5 team members',
-            '20GB storage',
-            'Email support',
-        ],
-    },
-    {
-        name: 'Pro',
-        price: 99,
-        features: [
-            'Advanced cloud integration',
-            'Up to 20 team members',
-            '100GB storage',
-            'Priority email & phone support',
-            'Advanced analytics',
-        ],
-    },
-    {
-        name: 'Enterprise',
-        price: 'Custom',
-        features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
-        ],
-    },
+    name: 'Basic File',
+    price: 29,
+    features: [
+        'Federal Tax Filing Included',
+        'State Tax Filing (1 state)',
+        'W-2 and 1099 Support',
+        'Email Support',
+        'Secure Data Encryption',
+    ],
+},
+{
+    name: 'Pro File',
+    price: 99,
+    features: [
+        'Federal & State Filing (Up to 3 States)',
+        'W-2, 1099, and Itemized Deductions',
+        'Schedule C (Freelancers/Self-Employed)',
+        'Phone & Priority Email Support',
+        'Live CPA Chat Support',
+        'Maximum Refund Guarantee',
+    ],
+},
+{
+    name: 'Enterprise File',
+    price: 'Custom',
+    features: [
+        'Unlimited State Filings',
+        'Complex Returns (S-Corp, LLC, Investments)',
+        'Dedicated CPA/EA Assigned',
+        'Audit Protection & Representation',
+        'Year-Round Tax Support',
+        'Custom Tax Strategy Session',
+    ],
+}
+
 ]

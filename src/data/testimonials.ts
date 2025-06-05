@@ -3,21 +3,22 @@ import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
-        avatar: '/images/testimonial-1.webp',
-    },
-    {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
-        avatar: '/images/testimonial-2.webp',
-    },
-    {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
-        avatar: '/images/testimonial-3.webp',
-    },
+    name: 'Michael Adams',
+    role: 'CPA & Financial Consultant',
+    message: `MyFiling has streamlined the entire tax filing process for my clients. The accuracy, speed, and support they provide are unmatched in the industry.`,
+    avatar: '/images/testimonial-1.webp',
+},
+{
+    name: 'Sophia Clark',
+    role: 'Founder, FinEdge Solutions',
+    message: `As a startup founder, I needed a reliable tax partner. MyFiling's secure system, expert support, and ease of use made tax season stress-free.`,
+    avatar: '/images/testimonial-2.webp',
+},
+{
+    name: 'Daniel Rivera',
+    role: 'Independent Contractor',
+    message: `Filing my taxes with MyFiling was simple and affordable. Their step-by-step guidance helped me maximize my deductions as a freelancer.`,
+    avatar: '/images/testimonial-3.webp',
+},
+
 ];

@@ -2,24 +2,25 @@ import { IFAQ } from "@/types";
 import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
-    {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-    },
-    {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-    },
-    {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-    },
-    {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-    },
-    {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-    }
+   {
+  question: `Is ${siteDetails.siteName} secure?`,
+  answer: 'Yes. Your tax data is protected with industry-standard 256-bit SSL encryption. We never store sensitive login details, and all filings are done through secure IRS-authorized channels.',
+},
+{
+  question: `Can I use ${siteDetails.siteName} on multiple devices?`,
+  answer: 'Absolutely. You can access your account from desktop, tablet, or mobile with full synchronization — continue your filing anytime, anywhere.',
+},
+{
+  question: 'Can I file both Federal and State taxes?',
+  answer: 'Yes, all of our plans include Federal filing. State filing is included in Pro and Enterprise plans, with Basic supporting one state filing.',
+},
+{
+  question: 'Do I need tax experience to use this service?',
+  answer: 'Not at all. We guide you step-by-step, and our system ensures you get all the credits and deductions you qualify for — no tax background needed.',
+},
+{
+  question: 'What if I need help during the filing process?',
+  answer: 'We’ve got your back. Our tax experts are available via live chat, email, and phone (depending on your plan). You also get access to a help center with detailed guides.',
+}
+
 ];
