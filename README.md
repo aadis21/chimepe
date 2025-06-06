@@ -1,6 +1,6 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnexi-launch%2FChimpe-landing-page)
 
-# Chimpe - Next.js + Tailwind Landing Page Template
+# Chimpe - Smart, Secure, Stress-Free Tax Filing
 
 Chimpe is a lightweight, easily configurable, and customizable **Next.js** and **Tailwind CSS** landing page template. It’s built to be adaptable, performant, and perfect for any product launch, portfolio, or promotional site.
 
@@ -86,8 +86,7 @@ Chimpe is an open-source project, and we welcome contributions from the communit
 
 Join our community discussions on GitHub to share ideas, ask questions, or suggest improvements. Let’s build something amazing together!
 
-
---- 
+---
 
 ## License
 

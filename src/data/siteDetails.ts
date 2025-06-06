@@ -2,8 +2,8 @@ export const siteDetails = {
     siteName: 'Chimpe',
     siteUrl: 'https://Chimpe-omega.vercel.app/',
     metadata: {
-        title: 'Chimpe - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Chimpe empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Chimpe - Smart, Secure, Stress-Free Tax Filing',
+        description: 'Chimpe empowers businesses and individuals with Smart, Secure, Stress-Free Tax Filing',
     },
     language: 'en-us',
     locale: 'en-US',
