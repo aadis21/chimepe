@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'support@chimpe.in',
+    email: 'contact@chimpe.in',
     telephone: '972.934.0024',
     socials: {
         // github: 'https://github.com',
