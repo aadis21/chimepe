@@ -23,7 +23,7 @@ export const footerDetails: {
         }
     ],
     email: 'support@chimpe.in',
-    telephone: '+917717667030',
+    telephone: '972.934.0024',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
