@@ -64,6 +64,15 @@ export default function RootLayout({
           gtag('config', 'AW-17167918692');
         `}
         </Script>
+        <Script id="gtag">
+          {`
+          gtag('event', 'conversion', {
+              'send_to': 'AW-17167918692/cGiJCKuNndUaEOTMpvo_',
+              'value': 1.0,
+              'currency': 'INR'
+          });
+        `}
+        </Script>
         <main>{children}</main>
         <Footer />
       </body>
