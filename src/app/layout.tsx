@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Source_Sans_3, Manrope } from "next/font/google";
-
+import { redirect } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteDetails } from "@/data/siteDetails";
@@ -36,12 +36,16 @@ export const metadata: Metadata = {
     images: ["/images/twitter-image.jpg"],
   },
 };
+const REDIRECT = process.env.NEXT_PUBLIC_REDIRECT;
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  if (REDIRECT === "yes") {
+    redirect("https://www.chimepay.in/"); // ⬅️ Server-side redirect
+  }
   return (
     <html lang="en">
       <body
